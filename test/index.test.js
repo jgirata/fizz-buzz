@@ -6,6 +6,10 @@ describe('fizz-buzz', function () {
             expect(fizzBuzz.getNumber(2)).toBe('Fizz');
         });
 
+        it('should return "Buzz" for odd numbers', function () {
+            expect(fizzBuzz.getNumber(3)).toBe('Buzz');
+        });
+
         it('should return the original number for odd numbers not divisible by 3', function () {
             expect(fizzBuzz.getNumber(5)).toBe(5);
         });
