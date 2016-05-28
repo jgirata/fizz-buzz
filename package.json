@@ -6,6 +6,7 @@
     "test": "karma start karma.conf.js"
   },
   "devDependencies": {
+    "coveralls": "^2.11.9",
     "isparta-loader": "^2.0.0",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
